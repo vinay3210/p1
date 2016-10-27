@@ -1,10 +1,14 @@
 {
   "name": "angular-quickstart",
   "version": "1.0.0",
+   "engines": {
+    "node": "6.9.1"
+  },
+  "main": "index.js",
   "scripts": {
-    "main": "node index.js",
-    "startt": "tsc && concurrently \"tsc -w\" \"node index.js\" ",
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "start": "node index.js",
+    "expres": "tsc && concurrently \"tsc -w\" \"node index.js\" ",
+    "star": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "lite": "lite-server",
     "tsc": "tsc",
     "tsc:w": "tsc -w"
